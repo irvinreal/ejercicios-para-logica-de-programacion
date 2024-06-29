@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(50, 60, 60);
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#lanzarJuego {
+  margin-top: 3rem;
+  padding: 0.5rem 0.8rem;
+  border: 2px solid white;
+  border-radius: 3px;
+  box-shadow: 0 4px 200px rgb(255, 255, 255, 0.4);
+  transition: ease-out 0.4s;
+
+  &:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0 5px 30px rgb(0, 0, 0, 0.2);
+  }
+}
