@@ -154,3 +154,4 @@ function ordenarSuperheroes(tipo, informacionSuperheroes) {
 }
 
 console.log(ordenarSuperheroes('nombreReal', informacionSuperheroes))
+
