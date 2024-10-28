@@ -18,7 +18,7 @@ function longitudUltimaPalabra(frase) {
     }
   })
 
-  return palabrasValidas[palabrasValidas.length - 1]
+  return palabrasValidas[palabrasValidas.length - 1].length
 }
 
 console.log(longitudUltimaPalabra('El cielo está encapotado quien lo desencapotará hoy'))
